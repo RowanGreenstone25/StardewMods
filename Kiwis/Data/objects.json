@@ -1,0 +1,405 @@
+{
+    "Changes": [
+        {
+            "LogName": "Load object data",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "rowang_kiwiegg": {
+                    "Name": "rowang_kiwiegg",
+                    "DisplayName":  "{{i18n:rowang_kiwiegg.name}}",
+                    "Description":  "{{i18n:rowang_kiwiegg.description}}",
+                    "Type": "Animal Product",          
+                    "Category": -5 ,
+                    "Edibility": 10,
+	                "Price": 300,
+                    "ContextTags":[
+                        "color_brown",
+                        "rowang_item",
+                        
+                    ],
+                    "Texture": "Mods/rowang.kiwis/objecttilesheet",
+                    "SpriteIndex": 0
+                },
+
+                "rowang_bluekiwiegg": {
+                    "Name": "rowang_bluekiwiegg",
+                    "DisplayName":  "{{i18n:rowang_bluekiwiegg.name}}",
+                    "Description":  "{{i18n:rowang_bluekiwiegg.description}}",
+                    "Type": "Animal Product",          
+                    "Category": -5 ,
+                    "Edibility": 25,
+	                "Price": 350,
+                    "ContextTags":[
+                        "color_blue",
+                        "rowang_item",
+                    ],
+                    "Texture": "Mods/rowang.kiwis/objecttilesheet",
+                    "SpriteIndex": 4
+                },
+
+                "rowang_voidkiwiegg": {
+                    "Name": "rowang_voidkiwiegg",
+                    "DisplayName":  "{{i18n:rowang_voidkiwiegg.name}}",
+                    "Description":  "{{i18n:rowang_voidkiwiegg.description}}",
+                    "Type": "Animal Product",          
+                    "Category": -5 ,
+                    "Edibility": 25,
+	                "Price": 350,
+                    "ContextTags":[
+                        "color_black",
+                        "rowang_item",
+                    ],
+                    "Texture": "Mods/rowang.kiwis/objecttilesheet",
+                    "SpriteIndex": 1
+                },
+
+                "rowang_mosskiwiegg": {
+                    "Name": "rowang_mosskiwiegg",
+                    "DisplayName":  "{{i18n:rowang_mosskiwiegg.name}}",
+                    "Description":  "{{i18n:rowang_mosskiwiegg.description}}",
+                    "Type": "Animal Product",          
+                    "Category": -5 ,
+                    "Edibility": -10,
+	                "Price": 300,
+                    "ContextTags":[
+                        "color_green",
+                        "rowang_item",
+                    ],
+                    "Texture": "Mods/rowang.kiwis/objecttilesheet",
+                    "SpriteIndex": 3
+                },
+
+                "rowang_goldkiwiegg": {
+                    "Name": "rowang_goldkiwiegg",
+                    "DisplayName":  "{{i18n:rowang_goldkiwiegg.name}}",
+                    "Description":  "{{i18n:rowang_goldkiwiegg.description}}",
+                    "Type": "Animal Product",          
+                    "Category": -5 ,
+                    "Edibility": 30,
+	                "Price": 400,
+                    "ContextTags":[
+                        "color_gold",
+                        "rowang_item",
+                    ],
+                    "Texture": "Mods/rowang.kiwis/objecttilesheet",
+                    "SpriteIndex": 2
+                },
+
+                "rowang_kiwimayo": {
+                    "Name": "rowang_kiwimayo",
+                    "DisplayName":  "{{i18n:rowang_kiwimayo.name}}",
+                    "Description":  "{{i18n:rowang_kiwimayo.description}}",
+                    "Type": "Animal Product",          
+                    "Category": -5 ,
+                    "Edibility": 40,
+                    "IsDrink": true,
+	                "Price": 600,
+                    "ContextTags":[
+                        "mayo_item",
+                        "color_white",
+                        "rowang_item",
+                    ],
+                    "Texture": "Mods/rowang.kiwis/objecttilesheet",
+                    "SpriteIndex": 11
+                },
+
+                "rowang_bluekiwimayo": {
+                    "Name": "rowang_bluekiwimayo",
+                    "DisplayName":  "{{i18n:rowang_bluekiwimayo.name}}",
+                    "Description":  "{{i18n:rowang_bluekiwimayo.description}}",
+                    "Type": "Animal Product",          
+                    "Category": -5 ,
+                    "Edibility": 50,
+                    "IsDrink": true,
+	                "Price": 700,
+                    "ContextTags":[
+                        "mayo_item",
+                        "color_blue",
+                        "rowang_item",
+                    ],
+                    "Texture": "Mods/rowang.kiwis/objecttilesheet",
+                    "SpriteIndex": 15
+                },
+
+                "rowang_voidkiwimayo": {
+                    "Name": "rowang_voidkiwimayo",
+                    "DisplayName":  "{{i18n:rowang_voidkiwimayo.name}}",
+                    "Description":  "{{i18n:rowang_voidkiwimayo.description}}",
+                    "Type": "Animal Product",          
+                    "Category": -5 ,
+                    "Edibility": 50,
+                    "IsDrink": true,
+	                "Price": 700,
+                    "ContextTags":[
+                        "mayo_item",
+                        "color_black",
+                        "rowang_item",
+                    ],
+                    "Texture": "Mods/rowang.kiwis/objecttilesheet",
+                    "SpriteIndex": 12
+                },
+
+                "rowang_mosskiwimayo": {
+                    "Name": "rowang_mossiwimayo",
+                    "DisplayName":  "{{i18n:rowang_mosskiwimayo.name}}",
+                    "Description":  "{{i18n:rowang_mosskiwimayo.description}}",
+                    "Type": "Animal Product",          
+                    "Category": -5 ,
+                    "Edibility": -20,
+                    "IsDrink": true,
+                    "Buffs": [
+                        {
+                            "Id": "Drink",
+                            "BuffId": null,
+                            "IsDebuff": true,
+                            "Duration": 10,
+                            "IconTexture": null,
+                            "SpriteIndex": null,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0.0,
+                                "FishingLevel": 0.0,
+                                "MiningLevel": 0.0,
+                                "LuckLevel": -4.0,
+                                "ForagingLevel": 0.0,
+                                "MaxStamina": -20.0,
+                                "MagneticRadius": 0.0,
+                                "Speed": -3.0,
+                                "Defense": 0.0,
+                                "Attack": 0.0
+                            },
+                        },
+                    ],
+	                "Price": 700,
+                    "ContextTags":[
+                        "mayo_item",
+                        "color_green",
+                        "rowang_item",
+                    ],
+                    "Texture": "Mods/rowang.kiwis/objecttilesheet",
+                    "SpriteIndex": 14
+                },
+
+                "rowang_goldkiwimayo": {
+                    "Name": "rowang_goldkiwimayo",
+                    "DisplayName":  "{{i18n:rowang_goldkiwimayo.name}}",
+                    "Description":  "{{i18n:rowang_goldkiwimayo.description}}",
+                    "Type": "Animal Product",          
+                    "Category": -5 ,
+                    "Edibility": 60,
+                    "IsDrink": true,
+	                "Price": 800,
+                    "ContextTags":[
+                        "mayo_item",
+                        "color_white",
+                        "rowang_item",
+                    ],
+                    "Texture": "Mods/rowang.kiwis/objecttilesheet",
+                    "SpriteIndex": 13
+                },
+
+                "rowang_kiwifruit": {
+                    "Name": "rowang_kiwifruit",
+                    "DisplayName":  "{{i18n:rowang_kiwifruit.name}}",
+                    "Description":  "{{i18n:rowang_kiwifruit.description}}",
+                    "Type": "Fruit",          
+                    "Category": -79,
+                    "Edibility": 5,
+	                "Price": 80,
+                    "ContextTags":[
+                        "rowang_item",
+                        "color_yellow_green",
+                        "preserves_jelly",
+                        "keg_wine",
+                    ],
+                    "Texture": "Mods/rowang.kiwis/objecttilesheet",
+                    "SpriteIndex": 5
+                },
+
+                "rowang_goldkiwifruit": {
+                    "Name": "rowang_goldkiwifruit",
+                    "DisplayName":  "{{i18n:rowang_goldkiwifruit.name}}",
+                    "Description":  "{{i18n:rowang_goldkiwifruit.description}}",
+                    "Type": "Fruit",          
+                    "Category": -79,
+                    "Edibility": 30,
+	                "Price": 500,
+                    "ContextTags":[
+                        "rowang_item",
+                        "color_gold",
+                        "preserves_jelly",
+                        "keg_wine",
+                    ],
+                    "Texture": "Mods/rowang.kiwis/objecttilesheet",
+                    "SpriteIndex": 6
+                },
+
+                "rowang_kiwistrawshake": {
+                    "Name": "rowang_kiwistrawshake",
+                    "DisplayName":  "{{i18n:rowang_kiwistrawshake.name}}",
+                    "Description":  "{{i18n:rowang_kiwistrawshake.description}}",
+                    "Type": "Cooking",          
+                    "Category": -7,
+                    "Edibility": 40,
+                    "IsDrink": true,
+                    "Buffs": [
+                        {
+                            "Id": "Drink",
+                            "BuffId": null,
+                            "IsDebuff": false,
+                            "Duration": 30,
+                            "IconTexture": null,
+                            "SpriteIndex": null,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0.0,
+                                "FishingLevel": 0.0,
+                                "MiningLevel": 0.0,
+                                "LuckLevel": 0.0,
+                                "ForagingLevel": 0.0,
+                                "MaxStamina": 0.0,
+                                "MagneticRadius": 2.0,
+                                "Speed": 0.0,
+                                "Defense": 0.0,
+                                "Attack": 0.0
+                            },
+                        },
+                    ],
+	                "Price": 900,
+                    "ContextTags":[
+                        "rowang_item",
+                        "color_green",
+                        "color_pink",
+                        "food_sweet",
+                    ],
+                    "Texture": "Mods/rowang.kiwis/objecttilesheet",
+                    "SpriteIndex": 7
+                },
+
+                "rowang_hardboilegg": {
+                    "Name": "rowang_hardboilegg",
+                    "DisplayName":  "{{i18n:rowang_hardboilegg.name}}",
+                    "Description":  "{{i18n:rowang_hardboilegg.description}}",
+                    "Type": "Cooking",          
+                    "Category": -7,
+                    "Edibility": 5,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "BuffId": null,
+                            "IsDebuff": false,
+                            "Duration": 10,
+                            "IconTexture": null,
+                            "SpriteIndex": null,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 1.0,
+                                "FishingLevel": 0.0,
+                                "MiningLevel": 0.0,
+                                "LuckLevel": 0.0,
+                                "ForagingLevel": 1.0,
+                                "MaxStamina": 0.0,
+                                "MagneticRadius": 0.0,
+                                "Speed": 0.0,
+                                "Defense": 0.0,
+                                "Attack": 0.0
+                            },
+                        },
+                    ],
+	                "Price": 900,
+                    "ContextTags":[
+                        "rowang_item",
+                        "color_white",
+                        "food_breakfast",
+                    ],
+                    "Texture": "Mods/rowang.kiwis/objecttilesheet",
+                    "SpriteIndex": 8
+                },
+
+                "rowang_eggbenedict": {
+                    "Name": "rowang_eggbenedict",
+                    "DisplayName":  "{{i18n:rowang_eggbenedict.name}}",
+                    "Description":  "{{i18n:rowang_eggbenedict.description}}",
+                    "Type": "Cooking",          
+                    "Category": -7,
+                    "Edibility": 5,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "BuffId": null,
+                            "IsDebuff": false,
+                            "Duration": 10,
+                            "IconTexture": null,
+                            "SpriteIndex": null,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 3.0,
+                                "FishingLevel": 0.0,
+                                "MiningLevel": 0.0,
+                                "LuckLevel": 0.0,
+                                "ForagingLevel": 3.0,
+                                "MaxStamina": 0.0,
+                                "MagneticRadius": 0.0,
+                                "Speed": 0.0,
+                                "Defense": 0.0,
+                                "Attack": 0.0
+                            },
+                        },
+                    ],
+	                "Price": 900,
+                    "ContextTags":[
+                        "rowang_item",
+                        "color_white",
+                        "food_breakfast",
+                    ],
+                    "Texture": "Mods/rowang.kiwis/objecttilesheet",
+                    "SpriteIndex": 9
+                },
+
+                "rowang_eggdip": {
+                    "Name": "rowang_eggdip",
+                    "DisplayName":  "{{i18n:rowang_eggdip.name}}",
+                    "Description":  "{{i18n:rowang_eggdip.description}}",
+                    "Type": "Cooking",          
+                    "Category": -7,
+                    "Edibility": 5,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "BuffId": null,
+                            "IsDebuff": false,
+                            "Duration": 10,
+                            "IconTexture": null,
+                            "SpriteIndex": null,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0.0,
+                                "FishingLevel": 0.0,
+                                "MiningLevel": 0.0,
+                                "LuckLevel": 0.0,
+                                "ForagingLevel": 0.0,
+                                "MaxStamina": 10.0,
+                                "MagneticRadius": 0.0,
+                                "Speed": 0.0,
+                                "Defense": 1.0,
+                                "Attack": 0.0
+                            },
+                        },
+                    ],
+	                "Price": 900,
+                    "ContextTags":[
+                        "rowang_item",
+                        "color_white",
+                        "food_breakfast",
+                    ],
+                    "Texture": "Mods/rowang.kiwis/objecttilesheet",
+                    "SpriteIndex": 10
+                },
+            }
+        }
+    ]
+}

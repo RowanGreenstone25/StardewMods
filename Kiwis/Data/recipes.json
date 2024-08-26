@@ -1,0 +1,15 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add recipes",
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {
+                "rowang_kiwistrawshake": "rowang_kiwifruit 1 400 1 -6 1 245 1/25 6/rowang_kiwistrawshake 1/default/{{i18n:rowang_kiwistrawshake.name}}",
+                "rowang_eggdip": "-5 1 216 1/25 6/rowang_eggdip 1/default/{{i18n:rowang_eggdip.name}}",
+                "rowang_eggbenedict": "-5 2 216 2 874 1/25 6/rowang_eggbenedict 1/default/{{i18n:rowang_eggbenedict}}",
+                "rowang_hardboilegg": "-5 2/25 6/rowang_hardboilegg 1/default/{{i18n:rowang_hardboilegg}}",
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+
+    "Changes": [
+        {
+            "LogName": "Load Adult textures",
+            "Action": "Load",
+            "Target": "Mods/rowang.kiwis/BrownKiwi,
+                       Mods/rowang.kiwis/AlbinoKiwi,
+                       Mods/rowang.kiwis/BlueKiwi,
+                       Mods/rowang.kiwis/GoldKiwi,
+                       Mods/rowang.kiwis/MaskKiwi,
+                       Mods/rowang.kiwis/MossKiwi,
+                       Mods/rowang.kiwis/SpottedKiwi,
+                       Mods/rowang.kiwis/VoidKiwi", 
+            "FromFile": "Assets/{{TargetWithoutPath}}.png",
+        },
+        {
+            "LogName": "Load baby textures",
+            "Action": "Load",
+            "Target": "Mods/rowang.kiwis/BabyBrownKiwi,
+                       Mods/rowang.kiwis/BabyAlbinoKiwi,
+                       Mods/rowang.kiwis/BabyBlueKiwi,
+                       Mods/rowang.kiwis/BabyGoldKiwi,
+                       Mods/rowang.kiwis/BabyMaskKiwi,
+                       Mods/rowang.kiwis/BabyMossKiwi,
+                       Mods/rowang.kiwis/BabySpottedKiwi,
+                       Mods/rowang.kiwis/BabyVoidKiwi",
+            "FromFile": "Assets/{{TargetWithoutPath}}.png",
+        },
+        
+        {
+            "LogName": "Load object textures",
+            "Action": "Load",
+            "Target": "Mods/rowang.kiwis/KiwiIcon,
+                       Mods/rowang.kiwis/objecttilesheet", 
+            "FromFile": "Assets/{{TargetWithoutPath}}.png",
+        },
+
+
+    ]
+}

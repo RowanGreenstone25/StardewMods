@@ -1,0 +1,21 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add sfx",
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "rowang.kiwis_kiwisound": {
+                    "ID": "rowang.kiwis_kiwisound",
+                    "Category": "Sound",
+                    "FilePaths": [ 
+                                   "{{AbsoluteFilePath: Sfx/f_kiwi1.wav}}", 
+                                   "{{AbsoluteFilePath: Sfx/f_kiwi2.wav}}", 
+                                   "{{AbsoluteFilePath: Sfx/m_kiwi1.wav}}", 
+                                   "{{AbsoluteFilePath: Sfx/m_kiwi2.wav}}",
+                                 ] ,
+                }
+            }
+        }
+    ]
+}
