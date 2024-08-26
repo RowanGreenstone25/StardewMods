@@ -1,0 +1,11 @@
+{
+    "Name": "Kiwis",
+    "Author": "RowanG",
+    "Version": "1.0.0",
+    "Description": "Add Kiwis as purchaseable animals and Kiwi related products",
+    "UniqueID": "rowang.kiwis",
+    //"UpdateKeys": [],  for when released//
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher",
+    }
+}

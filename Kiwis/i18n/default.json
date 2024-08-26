@@ -1,0 +1,86 @@
+// English //
+
+{
+    //Animals//
+
+    "rowang_KiwiBird.name": "Kiwi Bird",
+    "rowang_KiwiBird.description": "A flightless bird from New Zealand!",
+
+    "rowang_brownkiwi.name": "Brown Kiwi",
+    "rowang_brownkiwi.birthtext": "Your new Kiwi has hatched!",
+
+    "rowang_albinokiwi.name": "Albino Kiwi",
+    "rowang_albinokiwi.birthtext": "Your new Albino Kiwi has hatched!",
+
+    "rowang_spottedkiwi.name": "Spotted Kiwi",
+    "rowang_spottedkiwi.birthtext": "Your new Spotted Kiwi has hatched!",
+
+    "rowang_maskkiwi.name": "Okarito Kiwi",
+    "rowang_maskkiwi.birthtext": "Your new Okarito Kiwi has hatched!",
+
+    "rowang_bluekiwi.name": "Blue Kiwi",
+    "rowang_bluekiwi.birthtext": "Your new Blue Kiwi has hatched!",
+
+    "rowang_goldkiwi.name": "Golden Kiwi",
+    "rowang_goldkiwi.birthtext": "Your new Golden Kiwi has hatched!",
+
+    "rowang_voidkiwi.name": "Void Kiwi",
+    "rowang_voidkiwi.birthtext": "Your new Void Kiwi has hatched!",
+
+    "rowang_mosskiwi.name": "Mossy Kiwi",
+    "rowang_mosskiwi.birthtext": "Your new Mossy Kiwi has hatched!",
+
+    //Objects//
+
+    /*eggs*/    
+    "rowang_kiwiegg.name": "Kiwi Egg",
+    "rowang_kiwiegg.description": "A regular kiwi egg",
+
+    "rowang_bluekiwiegg.name": "Blue Kiwi Egg",
+    "rowang_bluekiwiegg.description": "An oddly coloured kiwi egg",
+
+    "rowang_goldkiwiegg.name": "Gold Kiwi Egg",
+    "rowang_goldkiwiegg.description": "A rare kiwi egg, the shell seems to be made of gold",
+
+    "rowang_mosskiwiegg.name": "Mossy Kiwi Egg",
+    "rowang_mosskiwiegg.description": "This kiwi egg is covered in ... moss?",
+
+    "rowang_voidkiwiegg.name": "Void Kiwi Egg",
+    "rowang_voidkiwiegg.description": "This egg exudes darkness",
+
+    /*mayos*/
+    "rowang_kiwimayo.name": "Kiwi Mayo",
+    "rowang_kiwimayo.description": "Do you think Hobbits would like this?",
+
+    "rowang_bluekiwimayo.name": "Blue Kiwi Mayo",
+    "rowang_bluekiwimayo.description": "This mayo smells like blueberries.",
+
+    "rowang_goldkiwimayo.name": "Gold Kiwi Mayo",
+    "rowang_goldkiwimayo.description": "Its gold... what else did you expect?",
+
+    "rowang_mosskiwimayo.name": "Mossy Kiwi Mayo",
+    "rowang_mosskiwimayo.description": "It smells like rotting plants! WHY did you make this!!!",
+
+    "rowang_voidkiwimayo.name": "Void Kiwi Mayo",
+    "rowang_voidkiwimayo.description": "Did this burn?",
+
+    /*fruit*/
+    "rowang_kiwifruit.name": "Kiwi Fruit",
+    "rowang_kiwifruit.description": "A sweet and sour fruit",
+
+    "rowang_goldkiwifruit.name": "Gold Kiwi Fruit",
+    "rowang_goldkiwifruit.description": "A sweet and sour fruit, with a gold skin",
+
+    /*recipes*/
+    "rowang_kiwistrawshake.name": "Kiwi Strawberry Milkshake",
+    "rowang_kiwistrawshake.description": "Brings the boys to the yard?",
+
+    "rowang_hardboilegg.name": "Hard Boiled Eggs",
+    "rowang_hardboilegg.description": "Hope they don't explode.",
+
+    "rowang_eggbenedict.name": "Eggs Benedict",
+    "rowang_eggbenedict.description": "Benny would be proud",
+
+    "rowang_eggdip.name": "Egg Dip",
+    "rowang_eggdip.description": "Toast soldiers and a soft boiled egg",
+}

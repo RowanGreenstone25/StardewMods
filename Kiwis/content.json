@@ -1,0 +1,23 @@
+{
+    "Format": "2.3.0",
+
+    "Changes": [
+        {
+            "LogName": "add images",
+            "Action": "Include",
+            "FromFile": "Data/texture.json",
+        },
+
+        {
+            "LogName": "add animal data",
+            "Action": "Include",
+            "FromFile": "Data/animals.json, Data/sounds.json",
+        },
+        {
+            "LogName": "add objects and processing data",
+            "Action": "Include",
+            "FromFile": "Data/objects.json, Data/recipes.json, Data/machines.json",
+        }
+    ]
+
+}

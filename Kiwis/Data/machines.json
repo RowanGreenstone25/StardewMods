@@ -1,0 +1,92 @@
+{
+    "Changes":[
+        {
+            "LogName": "Add kiwi mayos to the mayo machine",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC)24", "OutputRules" ],
+            "Entries": {
+                "rg_kiwimayo":{
+                    "Id": "rg_kiwimayo",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "rowang_kiwiegg",
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "CopyQuality": true,
+                            "ItemId": "rowang_kiwimayo"
+                        }
+                    ],
+                    "MinutesUntilReady": 5,
+                },
+                "rg_bluekiwimayo":{
+                    "Id": "rg_bluekiwimayo",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "rowang_bluekiwiegg",
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "CopyQuality": true,
+                            "ItemId": "rowang_bluekiwimayo"
+                        }
+                    ],
+                    "MinutesUntilReady": 180,
+                },
+                "rg_goldkiwimayo":{
+                    "Id": "rg_goldkiwimayo",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "rowang_goldkiwiegg",
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "CopyQuality": true,
+                            "ItemId": "rowang_goldkiwimayo"
+                        }
+                    ],
+                    "MinutesUntilReady": 180,
+                },
+                "rg_mosskiwimayo":{
+                    "Id": "rg_kiwimayo",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "rowang_mosskiwiegg",
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "CopyQuality": true,
+                            "ItemId": "rowang_mosskiwimayo"
+                        }
+                    ],
+                    "MinutesUntilReady": 180,
+                },
+                "rg_voidkiwimayo":{
+                    "Id": "rg_kiwimayo",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "rowang_voidkiwiegg",
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "CopyQuality": true,
+                            "ItemId": "rowang_voidkiwimayo"
+                        }
+                    ],
+                    "MinutesUntilReady": 180,
+                },
+            }
+        }
+    ]
+}
